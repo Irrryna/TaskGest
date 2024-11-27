@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: helvetica, arial, sans-serif;
+    background-color: #F9F9F9;
+
+}
+#titre {
+    display: flex;
+    justify-content: center;
+    font-family: "Gwendolyn", cursive;
+    font-weight: 700;
+    color: blue;
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 40px;
+    margin-top: -20px;
+}
+
+/* S1 - Creaction des taches */
+.creation {
+    border: 1px solid #6963c0; 
+    padding: 10px; 
+    margin-bottom: 20px;
+    width: 600px; 
+    text-align: center; 
+    border-radius: 5px;  
+    background-color: #f9f7e6be ; 
+ }
+
+h4 {
+   text-align: left;
+   margin-left: 15px;
+   font-family: 'Courier New', Courier, monospace;
+} 
+
+#writing {
+    width: 420px;
+    height: 50px;
+    margin-left: -147px;
+    vertical-align: middle; 
+    margin-bottom: 22px;
+}    
+
+button {
+    background: linear-gradient(to bottom, #94b9da, #ffa60085); /* dégradé jaune-orange */
+    border: 2px solid #F4A460;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 9px; 
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); 
+    position: absolute;
+    cursor: hand;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4); 
+    margin-left: 15px;
+}
+
+ /* S2 - Affichage des tâches */
+.liste-display {
+    display: flex;
+    border: 1px solid #6963c0; 
+    padding: 10px; 
+    width: 950px;
+    height: 400px;
+    border-radius: 5px;  
+    background-color: #f9f7e6be ; 
+} 
+
+
+
+/* 2. Appliquer des styles généraux :
+    - Centrer le contenu de la page.
+    - Ajouter des marges entre les éléments.
+3. Appliquer des styles spécifiques :
+    - Afficher les tâches sous forme de blocs lisibles (fond clair, bordures arrondies).
+    - Ajouter un style minimal aux boutons. */

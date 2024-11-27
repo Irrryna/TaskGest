@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F9F9F9;
+
+}
+#titre {
+    display: flex;
+    font-size: 40px;
+    justify-content: center;
+    color: rgb(27, 29, 39);
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 40px;
+    margin-top: -20px;
+}
+
+/* S1 - Creaction des taches */
+.creation {
+    border: 1px solid #6963c0; 
+    padding: 10px; 
+    margin-bottom: 20px;
+    width: 950px; 
+    text-align: center; 
+    border-radius: 5px;  
+    background-color: #f9f7e6be ; 
+ }
+
+h4 {
+   text-align: left;
+   margin-left: 15px;
+   font-family: 'Courier New', Courier, monospace;
+}
+
+#task-form {
+display: flex;
+justify-content: space-around;
+}
+
+#writing {
+    margin-bottom: 22px;
+    width: 500px;
+    height: 150px;
+    background-color:#FFFFFF ; 
+}    
+::placeholder {
+    color: rgb(100, 98, 98);
+    font-size: 1,3em;
+  }
+
+.button#add-but {
+    width: 60px;
+}
+ /* S2 - Affichage des tâches */
+.liste-display {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #6963c0; 
+    background-color: #f9f7e6be ; 
+    padding: 10px; 
+    max-width: 950px;
+    height:fit-content ; 
+    border-radius: 5px;  
+} 
+
+ul li{
+display: flex; 
+justify-content: space-around; 
+margin-bottom: 5px;
+border: 1px solid #6963c0; 
+padding: 5px; 
+width: 850px;
+height: fit-content;
+border-radius: 5px;  
+background-color:#FFFFFF ;
+text-indent: 7px; 
+}
+element.style{
+ margin-left: 500px;
+}
+
+ul li button {
+margin-left: 20px;
+cursor: hand;
+position: relative;
+}
+    
+.delete-button:hover {
+background-color: #E28D8D;
+color: #F9F9F9;
+}

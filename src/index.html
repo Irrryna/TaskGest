@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taskbar</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gwendolyn:wght@400;700&family=Lavishly+Yours&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/papercss@1.9.2/dist/paper.min.css" />
+    <link rel="stylesheet" href="styleB.css">
+   
+</head>
+<body>
+    <h1 id="titre"> Ma  liste  de  tâches : </h1>
+
+<div class="content">
+<section class="creation"> 
+    <h4> Pour créer une nouvelle tâche : </h4>
+    <form id="task-form">
+    <textarea id="writing" placeholder="Une nouvelle idée ?" rows="4" required></textarea>
+    <button id=add-but type="submit"> Ajouter </button>
+</form>
+</section>
+
+<section class="liste-display"> 
+    <h4> Ceci est ta liste de tâches : </h4>
+
+    <ul id="list" class="list">
+
+    </ul>
+   
+</section>
+   
+</div> 
+<script src="script.js" defer></script>
+</body>
+</html>
